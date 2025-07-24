@@ -232,6 +232,11 @@ footer .container {
   .video-text p {
     display: none;
   }
+  .video video {
+    width: 100%;   
+    max-width: 100%;
+    height: auto;
+  }
   .fourth {
     display: none;
   }
