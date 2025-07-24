@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-nav {
+  display: flex !important;
+}
+.mobile-nav {
+  display: none !important;
+}
+
+.infoSecond img,
+.infoSecond h1,
+.infoSecond p {
+  display: block;
+}
+.card2 img {
+  display: block;
+}
+.text-course p {
+  display: block;
+}
+.video-text p {
+  display: block;
+}
+.fourth {
+  display: flex;
+}
+
+.firstSection {
+  background: #bdbdbd;
+  height: 550px;
+  display: flex;
+}
+.firstSection img {
+  margin: 10px;
+  height: 500px;
+  width: 600px;
+}
+.firstSection #info {
+  margin: auto;
+  text-align: center;
+}
+
+.secondSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+.infoSecond {
+  flex: 2;
+}
+.infoSecond img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 15px;
+}
+.infoSecond1 {
+  flex: 0 0 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cards {
+  display: flex;
+  gap: 16px;
+  background: #f7f7f7;
+  padding: 12px;
+  align-items: flex-start;
+}
+.cards img {
+  width: 35%;
+}
+.cards .text-content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.cards h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+.cards p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+.cards a {
+  color: #0078d4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.thirdClass {
+  background: #cfcfcf;
+  padding: 20px;
+  text-align: center;
+}
+.courseInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card2 {
+  background: white;
+  width: 350px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.card2 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.text-course {
+  padding: 15px;
+  text-align: left;
+}
+
+.fouthClass {
+  padding: 40px;
+  background: #f7f7f7;
+}
+.infoFourth {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.video {
+  flex: 0 0 60%;
+}
+.video video {
+  width: 600px;
+  height: auto;
+}
+.cards3 img {
+  height: 150px;
+}
+.cards3 .text-content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.cards3 {
+  display: flex;
+  gap: 16px;
+  background: #f7f7f7;
+  padding: 12px;
+  align-items: flex-start;
+}
+.fourth {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+footer .container {
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  gap: 0;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+  .mobile-nav {
+    display: flex !important;
+  }
+
+  .firstSection {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  .firstSection img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  #info {
+    padding: 20px;
+  }
+
+  .infoSecond img,
+  .infoSecond h1,
+  .infoSecond p {
+    display: none;
+  }
+  .secondSection {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cards img {
+    width: 100%;
+    height: auto;
+  }
+  .cards .text-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .card2 img {
+    display: none;
+  }
+  .text-course p {
+    display: none;
+  }
+  .text-course h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .video-text p {
+    display: none;
+  }
+  .fourth {
+    display: none;
+  }
+
+  footer .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+    padding: 10px 0;
+  }
+}
